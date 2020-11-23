@@ -21,7 +21,6 @@ class Program(QMainWindow):
             self.qp = QPainter()
             self.qp.begin(self)
             self.qp.setPen(QColor(randint(0,255), randint(0,255), randint(0,255)))
-            self.qp.setBrush(QColor(randint(0,255), randint(0,255), randint(0,255)))
             self.draw()
             self.qp.end()
 
